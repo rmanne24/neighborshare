@@ -3,6 +3,7 @@ zerops:
   - setup: gui
     build:
       base: nodejs@20
+      os: ubuntu
       buildCommands:
         - |
           cd frontend
@@ -19,6 +20,7 @@ zerops:
   - setup: api
     build:
       base: nodejs@20
+      os: ubuntu
       buildCommands:
         - |
           cd backend
@@ -31,6 +33,7 @@ zerops:
         - backend/node_modules
     run:
       base: nodejs@20
+      os: ubuntu
       ports:
         - port: 5000
           httpSupport: true
