@@ -38,5 +38,5 @@ zerops:
         - |
           cd backend
           npx prisma db push
-          npx ts-node prisma/seed.ts
+          node prisma/seed.js
       start: cd backend && npm run start
