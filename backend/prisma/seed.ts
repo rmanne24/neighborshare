@@ -6,7 +6,7 @@ const mockUsers = [
   {
     id: 'user_0',
     name: 'XYZ Manne',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'xyz.manne@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.9,
@@ -23,7 +23,7 @@ const mockUsers = [
   {
     id: 'user_1',
     name: 'Rahul Sharma',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'rahul.sharma@example.com',
     neighborhood: 'Koramangala, Bangalore',
     rating: 4.7,
@@ -40,7 +40,7 @@ const mockUsers = [
   {
     id: 'user_2',
     name: 'Ananya Iyer',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'ananya.iyer@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.8,
@@ -57,7 +57,7 @@ const mockUsers = [
   {
     id: 'user_3',
     name: 'Arjun Mehta',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'arjun.mehta@example.com',
     neighborhood: 'HSR Layout, Bangalore',
     rating: 4.6,
@@ -74,7 +74,7 @@ const mockUsers = [
   {
     id: 'user_4',
     name: 'Priya Patel',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'priya.patel@example.com',
     neighborhood: 'Jayanagar, Bangalore',
     rating: 4.9,
@@ -91,7 +91,7 @@ const mockUsers = [
   {
     id: 'user_5',
     name: 'Karthik Rao',
-    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'karthik.rao@example.com',
     neighborhood: 'Whitefield, Bangalore',
     rating: 4.5,
@@ -108,7 +108,7 @@ const mockUsers = [
   {
     id: 'user_6',
     name: 'Sneha Reddy',
-    avatar: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'sneha.reddy@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.8,
@@ -125,7 +125,7 @@ const mockUsers = [
   {
     id: 'user_7',
     name: 'Aditya Sen',
-    avatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'aditya.sen@example.com',
     neighborhood: 'Koramangala, Bangalore',
     rating: 4.4,
@@ -142,7 +142,7 @@ const mockUsers = [
   {
     id: 'user_8',
     name: 'Meera Nair',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'meera.nair@example.com',
     neighborhood: 'Jayanagar, Bangalore',
     rating: 4.9,
@@ -159,7 +159,7 @@ const mockUsers = [
   {
     id: 'user_9',
     name: 'Vikram Singh',
-    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'vikram.singh@example.com',
     neighborhood: 'HSR Layout, Bangalore',
     rating: 4.6,
@@ -176,7 +176,7 @@ const mockUsers = [
   {
     id: 'user_10',
     name: 'Divya Joshi',
-    avatar: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'divya.joshi@example.com',
     neighborhood: 'Koramangala, Bangalore',
     rating: 4.7,
@@ -193,7 +193,7 @@ const mockUsers = [
   {
     id: 'user_11',
     name: 'Manish Gupta',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'manish.gupta@example.com',
     neighborhood: 'Whitefield, Bangalore',
     rating: 4.3,
@@ -210,7 +210,7 @@ const mockUsers = [
   {
     id: 'user_12',
     name: 'Kriti Deshmukh',
-    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'kriti.deshmukh@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.9,
@@ -227,7 +227,7 @@ const mockUsers = [
   {
     id: 'user_13',
     name: 'Sandeep Varma',
-    avatar: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'sandeep.varma@example.com',
     neighborhood: 'HSR Layout, Bangalore',
     rating: 4.7,
@@ -244,7 +244,7 @@ const mockUsers = [
   {
     id: 'user_14',
     name: 'Pooja Bhat',
-    avatar: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'pooja.bhat@example.com',
     neighborhood: 'Jayanagar, Bangalore',
     rating: 4.8,
@@ -261,7 +261,7 @@ const mockUsers = [
   {
     id: 'user_15',
     name: 'Varun Das',
-    avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'varun.das@example.com',
     neighborhood: 'Whitefield, Bangalore',
     rating: 4.6,
@@ -278,7 +278,7 @@ const mockUsers = [
   {
     id: 'user_16',
     name: 'Rohan Hegde',
-    avatar: 'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'rohan.hegde@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.8,
@@ -295,7 +295,7 @@ const mockUsers = [
   {
     id: 'user_17',
     name: 'Shweta Kulkarni',
-    avatar: 'https://images.unsplash.com/photo-1548142813-c348350df52b?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'shweta.kulkarni@example.com',
     neighborhood: 'Koramangala, Bangalore',
     rating: 4.7,
@@ -312,7 +312,7 @@ const mockUsers = [
   {
     id: 'user_18',
     name: 'Abhishek Roy',
-    avatar: 'https://images.unsplash.com/photo-1527983359383-4758693f760c?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'abhishek.roy@example.com',
     neighborhood: 'Jayanagar, Bangalore',
     rating: 4.5,
@@ -329,7 +329,7 @@ const mockUsers = [
   {
     id: 'user_19',
     name: 'Neha Kapur',
-    avatar: 'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'neha.kapur@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.9,
@@ -374,12 +374,12 @@ const mockTransactions = [
 ];
 
 const mockReviews = [
-  { id: 'rev_1', itemId: 'item_0', reviewerId: 'user_1', reviewerName: 'Rahul Sharma', reviewerAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80', rating: 5, comment: 'The projector is fantastic! Set it up in the backyard for a birthday screening. Highly recommend XYZ as an owner.', date: '2026-07-28', type: 'item' },
-  { id: 'rev_2', itemId: 'item_0', reviewerId: 'user_2', reviewerName: 'Ananya Iyer', reviewerAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80', rating: 4, comment: 'Clear projection, though it works best in complete dark.', date: '2026-07-15', type: 'item' }
+  { id: 'rev_1', itemId: 'item_0', reviewerId: 'user_1', reviewerName: 'Rahul Sharma', reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E", rating: 5, comment: 'The projector is fantastic! Set it up in the backyard for a birthday screening. Highly recommend XYZ as an owner.', date: '2026-07-28', type: 'item' },
+  { id: 'rev_2', itemId: 'item_0', reviewerId: 'user_2', reviewerName: 'Ananya Iyer', reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E", rating: 4, comment: 'Clear projection, though it works best in complete dark.', date: '2026-07-15', type: 'item' }
 ];
 
 const mockCommunityRequests = [
-  { id: 'com_0', title: 'Need a heavy-duty tall ladder', category: 'Home & DIY', requiredDates: 'Aug 15–16', description: 'Looking to prune a few overgrown branches of a mango tree hanging over our balcony in Indiranagar. A 10ft or 12ft ladder would be perfect.', location: 'Indiranagar, Block A', distance: 800, postedBy: 'Ananya Iyer', posterId: 'user_2', posterAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80', createdAt: '2026-08-08' }
+  { id: 'com_0', title: 'Need a heavy-duty tall ladder', category: 'Home & DIY', requiredDates: 'Aug 15–16', description: 'Looking to prune a few overgrown branches of a mango tree hanging over our balcony in Indiranagar. A 10ft or 12ft ladder would be perfect.', location: 'Indiranagar, Block A', distance: 800, postedBy: 'Ananya Iyer', posterId: 'user_2', posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E", createdAt: '2026-08-08' }
 ];
 
 const mockNotifications = [
@@ -406,8 +406,8 @@ async function main() {
 
   // Add a few secondary users who own items in the seed
   const secondaryUsers = [
-    { id: 'user_11', name: 'Manish Gupta', avatar: 'https://api.dicebear.com/7.x/adventurer/svg?seed=manish', email: 'manish@example.com', neighborhood: 'Whitefield', rating: 4.3, joinedDate: 'Dec 2025', verifiedEmail: true, verifiedPhone: true, trustedMember: false, about: 'Guitarist' },
-    { id: 'user_18', name: 'Abhishek Roy', avatar: 'https://api.dicebear.com/7.x/adventurer/svg?seed=abhishek', email: 'abhishek@example.com', neighborhood: 'Jayanagar', rating: 4.5, joinedDate: 'Apr 2026', verifiedEmail: true, verifiedPhone: true, trustedMember: false, about: 'Loves repair' }
+    { id: 'user_11', name: 'Manish Gupta', avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E", email: 'manish@example.com', neighborhood: 'Whitefield', rating: 4.3, joinedDate: 'Dec 2025', verifiedEmail: true, verifiedPhone: true, trustedMember: false, about: 'Guitarist' },
+    { id: 'user_18', name: 'Abhishek Roy', avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E", email: 'abhishek@example.com', neighborhood: 'Jayanagar', rating: 4.5, joinedDate: 'Apr 2026', verifiedEmail: true, verifiedPhone: true, trustedMember: false, about: 'Loves repair' }
   ];
   for (const user of secondaryUsers) {
     await prisma.user.upsert({
@@ -445,7 +445,7 @@ async function main() {
       create: {
         id: item.ownerId,
         name: 'Extra Owner',
-        avatar: 'https://api.dicebear.com/7.x/adventurer/svg?seed=owner',
+        avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
         email: `${item.ownerId}@example.com`,
         neighborhood: 'Jayanagar',
         rating: 4.8,

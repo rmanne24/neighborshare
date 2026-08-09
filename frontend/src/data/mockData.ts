@@ -112,7 +112,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_0', // Demo User
     name: 'XYZ Manne',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'xyz.manne@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.9,
@@ -129,7 +129,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_1',
     name: 'Rahul Sharma',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'rahul.sharma@example.com',
     neighborhood: 'Koramangala, Bangalore',
     rating: 4.7,
@@ -146,7 +146,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_2',
     name: 'Ananya Iyer',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'ananya.iyer@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.8,
@@ -163,7 +163,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_3',
     name: 'Arjun Mehta',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'arjun.mehta@example.com',
     neighborhood: 'HSR Layout, Bangalore',
     rating: 4.6,
@@ -180,7 +180,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_4',
     name: 'Priya Patel',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'priya.patel@example.com',
     neighborhood: 'Jayanagar, Bangalore',
     rating: 4.9,
@@ -197,7 +197,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_5',
     name: 'Karthik Rao',
-    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'karthik.rao@example.com',
     neighborhood: 'Whitefield, Bangalore',
     rating: 4.5,
@@ -214,7 +214,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_6',
     name: 'Sneha Reddy',
-    avatar: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'sneha.reddy@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.8,
@@ -231,7 +231,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_7',
     name: 'Aditya Sen',
-    avatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'aditya.sen@example.com',
     neighborhood: 'Koramangala, Bangalore',
     rating: 4.4,
@@ -248,7 +248,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_8',
     name: 'Meera Nair',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'meera.nair@example.com',
     neighborhood: 'Jayanagar, Bangalore',
     rating: 4.9,
@@ -265,7 +265,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_9',
     name: 'Vikram Singh',
-    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'vikram.singh@example.com',
     neighborhood: 'HSR Layout, Bangalore',
     rating: 4.6,
@@ -282,7 +282,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_10',
     name: 'Divya Joshi',
-    avatar: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'divya.joshi@example.com',
     neighborhood: 'Koramangala, Bangalore',
     rating: 4.7,
@@ -299,7 +299,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_11',
     name: 'Manish Gupta',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'manish.gupta@example.com',
     neighborhood: 'Whitefield, Bangalore',
     rating: 4.3,
@@ -316,7 +316,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_12',
     name: 'Kriti Deshmukh',
-    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'kriti.deshmukh@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.9,
@@ -333,7 +333,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_13',
     name: 'Sandeep Varma',
-    avatar: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'sandeep.varma@example.com',
     neighborhood: 'HSR Layout, Bangalore',
     rating: 4.7,
@@ -350,7 +350,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_14',
     name: 'Pooja Bhat',
-    avatar: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'pooja.bhat@example.com',
     neighborhood: 'Jayanagar, Bangalore',
     rating: 4.8,
@@ -367,7 +367,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_15',
     name: 'Varun Das',
-    avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'varun.das@example.com',
     neighborhood: 'Whitefield, Bangalore',
     rating: 4.6,
@@ -384,7 +384,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_16',
     name: 'Rohan Hegde',
-    avatar: 'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'rohan.hegde@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.8,
@@ -401,7 +401,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_17',
     name: 'Shweta Kulkarni',
-    avatar: 'https://images.unsplash.com/photo-1548142813-c348350df52b?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'shweta.kulkarni@example.com',
     neighborhood: 'Koramangala, Bangalore',
     rating: 4.7,
@@ -418,7 +418,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_18',
     name: 'Abhishek Roy',
-    avatar: 'https://images.unsplash.com/photo-1527983359383-4758693f760c?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'abhishek.roy@example.com',
     neighborhood: 'Jayanagar, Bangalore',
     rating: 4.5,
@@ -435,7 +435,7 @@ export const mockUsers: User[] = [
   {
     id: 'user_19',
     name: 'Neha Kapur',
-    avatar: 'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=150&auto=format&fit=crop&q=80',
+    avatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     email: 'neha.kapur@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.9,
@@ -1185,7 +1185,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_0',
     reviewerId: 'user_1',
     reviewerName: 'Rahul Sharma',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'The projector is fantastic! Set it up in the backyard for a birthday screening. Highly recommend XYZ as an owner, she was super helpful.',
     date: '2026-07-28',
@@ -1196,7 +1196,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_0',
     reviewerId: 'user_2',
     reviewerName: 'Ananya Iyer',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 4,
     comment: 'Clear projection, though it works best in complete dark. Appreciate that it included all the cables.',
     date: '2026-07-15',
@@ -1207,7 +1207,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_4',
     reviewerId: 'user_0',
     reviewerName: 'XYZ Manne',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Rahul’s drill was exactly what I needed to assemble a bookshelf. Fully charged batteries and a solid set of bits. Thanks!',
     date: '2026-07-20',
@@ -1218,7 +1218,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_11',
     reviewerId: 'user_0',
     reviewerName: 'XYZ Manne',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Absolutely love this stand mixer. Priya was very clean and nice when handing it over. Made the fluffiest bread dough.',
     date: '2026-08-05',
@@ -1229,7 +1229,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_2',
     reviewerId: 'user_5',
     reviewerName: 'Karthik Rao',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Cleaned my muddy mountain bike in 10 minutes. Extremely powerful pressure washer. XYZ gave clear instructions.',
     date: '2026-07-10',
@@ -1240,7 +1240,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_2',
     reviewerId: 'user_13',
     reviewerName: 'Sandeep Varma',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Amazing pressure washer. Used it to clean my terrace tiling. Super clean result.',
     date: '2026-07-25',
@@ -1251,7 +1251,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_3',
     reviewerId: 'user_6',
     reviewerName: 'Sneha Reddy',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Very helpful kitchen appliance. Worked smoothly and smelled clean. Perfect for making snacks for kids.',
     date: '2026-07-12',
@@ -1262,7 +1262,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_6',
     reviewerId: 'user_8',
     reviewerName: 'Meera Nair',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 4,
     comment: 'Sturdy tent, had a wonderful camping night at Savandurga. Putting it down takes a bit of practice.',
     date: '2026-06-18',
@@ -1273,7 +1273,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_8',
     reviewerId: 'user_14',
     reviewerName: 'Pooja Bhat',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Classic board game! We had an awesome weekend group evening playing this. All cards were present.',
     date: '2026-07-04',
@@ -1284,7 +1284,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_10',
     reviewerId: 'user_16',
     reviewerName: 'Rohan Hegde',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Arjun is an excellent owner. The 360 camera is practically brand new. Made beautiful footage.',
     date: '2026-08-01',
@@ -1296,7 +1296,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_0', // XYZ reviewed Rahul as borrower
     reviewerId: 'user_0',
     reviewerName: 'XYZ Manne',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Rahul returned the projector exactly on time and in perfect condition. Great borrower, highly recommended!',
     date: '2026-07-29',
@@ -1307,7 +1307,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_4', // Rahul reviewed XYZ as borrower
     reviewerId: 'user_1',
     reviewerName: 'Rahul Sharma',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'XYZ was extremely neat and returned the drill bits fully organized. Would lend to her again!',
     date: '2026-07-21',
@@ -1318,7 +1318,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_11', // Priya reviewed XYZ as borrower
     reviewerId: 'user_4',
     reviewerName: 'Priya Patel',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Super polite and returned the stand mixer thoroughly washed and dry. Perfect borrower!',
     date: '2026-08-06',
@@ -1329,7 +1329,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_2', // XYZ reviewed Karthik as borrower
     reviewerId: 'user_0',
     reviewerName: 'XYZ Manne',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 4,
     comment: 'Karthik returned it clean, though slightly delayed due to traffic. Easy communication.',
     date: '2026-07-11',
@@ -1340,7 +1340,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_2', // XYZ reviewed Sandeep as borrower
     reviewerId: 'user_0',
     reviewerName: 'XYZ Manne',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Very polite, quick hand-over. Returned it carefully. 10/10.',
     date: '2026-07-26',
@@ -1351,7 +1351,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_6', // Ananya reviewed XYZ as borrower
     reviewerId: 'user_2',
     reviewerName: 'Ananya Iyer',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'XYZ is always a pleasure to deal with. Tent was cleaned and dry. Thank you!',
     date: '2026-06-15',
@@ -1362,7 +1362,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_8', // Aditya reviewed Pooja as borrower
     reviewerId: 'user_7',
     reviewerName: 'Aditya Sen',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Very careful with the board game tokens. Friendly chat during handover.',
     date: '2026-07-05',
@@ -1373,7 +1373,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_10', // Arjun reviewed Rohan as borrower
     reviewerId: 'user_3',
     reviewerName: 'Arjun Mehta',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Rohan handled the action camera with maximum care. Zero scratches. Responsive and polite.',
     date: '2026-08-02',
@@ -1384,7 +1384,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_14', // Priya reviewed Arjun as borrower
     reviewerId: 'user_4',
     reviewerName: 'Priya Patel',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 4,
     comment: 'Arjun returned the chafing dishes in good order. Easy transaction.',
     date: '2026-07-29',
@@ -1395,7 +1395,7 @@ export const mockReviews: Review[] = [
     itemId: 'item_24', // Ananya reviewed Sneha as borrower
     reviewerId: 'user_2',
     reviewerName: 'Ananya Iyer',
-    reviewerAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    reviewerAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     rating: 5,
     comment: 'Friendly borrower. Returned the ring light and stand safe and sound.',
     date: '2026-07-16',
@@ -1836,10 +1836,10 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 800,
     postedBy: 'Ananya Iyer',
     posterId: 'user_2',
-    posterAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-08',
     offers: [
-      { id: 'off_0', userId: 'user_18', userName: 'Abhishek Roy', userAvatar: 'https://images.unsplash.com/photo-1527983359383-4758693f760c?w=150&auto=format&fit=crop&q=80', status: 'Pending' }
+      { id: 'off_0', userId: 'user_18', userName: 'Abhishek Roy', userAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E", status: 'Pending' }
     ]
   },
   {
@@ -1852,7 +1852,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 1400,
     postedBy: 'Rahul Sharma',
     posterId: 'user_1',
-    posterAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-07',
     offers: []
   },
@@ -1866,7 +1866,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 2100,
     postedBy: 'Arjun Mehta',
     posterId: 'user_3',
-    posterAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-09',
     offers: []
   },
@@ -1880,7 +1880,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 500,
     postedBy: 'Sneha Reddy',
     posterId: 'user_6',
-    posterAvatar: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-09',
     offers: []
   },
@@ -1894,7 +1894,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 1800,
     postedBy: 'Meera Nair',
     posterId: 'user_8',
-    posterAvatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-08',
     offers: []
   },
@@ -1908,7 +1908,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 1200,
     postedBy: 'Neha Kapur',
     posterId: 'user_19',
-    posterAvatar: 'https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-09',
     offers: []
   },
@@ -1922,7 +1922,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 3500,
     postedBy: 'Karthik Rao',
     posterId: 'user_5',
-    posterAvatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-07',
     offers: []
   },
@@ -1936,7 +1936,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 1100,
     postedBy: 'Divya Joshi',
     posterId: 'user_10',
-    posterAvatar: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-08',
     offers: []
   },
@@ -1950,7 +1950,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 2500,
     postedBy: 'Vikram Singh',
     posterId: 'user_9',
-    posterAvatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-06',
     offers: []
   },
@@ -1964,7 +1964,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 1900,
     postedBy: 'Priya Patel',
     posterId: 'user_4',
-    posterAvatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-09',
     offers: []
   },
@@ -1978,7 +1978,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 4000,
     postedBy: 'Varun Das',
     posterId: 'user_15',
-    posterAvatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-08',
     offers: []
   },
@@ -1992,7 +1992,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 1600,
     postedBy: 'Aditya Sen',
     posterId: 'user_7',
-    posterAvatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-08',
     offers: []
   },
@@ -2006,7 +2006,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 900,
     postedBy: 'Rohan Hegde',
     posterId: 'user_16',
-    posterAvatar: 'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-08',
     offers: []
   },
@@ -2020,7 +2020,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 1700,
     postedBy: 'Pooja Bhat',
     posterId: 'user_14',
-    posterAvatar: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-09',
     offers: []
   },
@@ -2034,7 +2034,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
     distance: 3800,
     postedBy: 'Manish Gupta',
     posterId: 'user_11',
-    posterAvatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80',
+    posterAvatar: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='background:%23f8fafc;padding:6px;border-radius:50%25'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E",
     createdAt: '2026-08-09',
     offers: []
   }
