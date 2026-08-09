@@ -46,10 +46,20 @@ interface AppContextType {
   logoutUser: () => void;
   registerUser: (name: string, email: string, neighborhood: string) => Promise<void>;
 }
-
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
+const API_BASE = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? '' : 'https://api-2cb9-5000.prg1.zerops.app');
+
+const customFetch = (input: RequestInfo | URL, init?: RequestInit): Promise<Response> => {
+  let url = input;
+  if (typeof url === 'string' && url.startsWith('/api') && API_BASE) {
+    url = `${API_BASE}${url}`;
+  }
+  return window.fetch(url, init);
+};
+
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const fetch = customFetch;
   const [currentUser, setCurrentUser] = useState<User | null>(() => {
     const saved = localStorage.getItem('ns_current_user');
     return saved ? JSON.parse(saved) : null;
