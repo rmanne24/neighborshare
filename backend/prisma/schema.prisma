@@ -1,0 +1,175 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id                 String   @id
+  name               String
+  avatar             String
+  email              String   @unique
+  neighborhood       String
+  rating             Float
+  joinedDate         String
+  verifiedEmail      Boolean
+  verifiedPhone      Boolean
+  trustedMember      Boolean
+  itemsSharedCount   Int      @default(0)
+  successfulBorrows  Int      @default(0)
+  successfulLends    Int      @default(0)
+  onTimeReturnRate   Int      @default(100)
+  about              String
+
+  // Relations
+  items             Item[]
+  requests          BorrowRequest[]
+  borrows           Transaction[]    @relation("borrower")
+  lends             Transaction[]    @relation("owner")
+  reviews           Review[]         @relation("reviewer")
+  communityRequests CommunityRequest[]
+  communityOffers   CommunityOffer[]
+  notifications     Notification[]
+  wishlist          WishlistItem[]
+}
+
+model Item {
+  id              String   @id
+  name            String
+  category        String
+  condition       String
+  description     String
+  ownerId         String
+  distance        Int
+  sharingType     String
+  dailyRate       Int
+  securityDeposit Int
+  status          String
+  images          String // Comma separated URLs
+  availableFrom   String
+  availableTo     String
+  rating          Float
+  reviewsCount    Int
+
+  // Relations
+  owner           User            @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  requests        BorrowRequest[]
+  transactions    Transaction[]
+  reviews         Review[]
+  wishlistedBy    WishlistItem[]
+}
+
+model BorrowRequest {
+  id              String   @id
+  itemId          String
+  borrowerId      String
+  startDate       String
+  endDate         String
+  purpose         String
+  message         String
+  status          String
+  createdAt       String
+  totalCost       Int
+  securityDeposit Int
+
+  // Relations
+  item            Item          @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  borrower        User          @relation(fields: [borrowerId], references: [id], onDelete: Cascade)
+  transactions    Transaction[]
+}
+
+model Transaction {
+  id              String   @id
+  requestId       String
+  itemId          String
+  borrowerId      String
+  ownerId         String
+  startDate       String
+  endDate         String
+  status          String
+  pickupConfirmed Boolean
+  returnConfirmed Boolean
+  totalPrice      Int
+  securityDeposit Int
+
+  // Relations
+  request         BorrowRequest @relation(fields: [requestId], references: [id], onDelete: Cascade)
+  item            Item          @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  borrower        User          @relation("borrower", fields: [borrowerId], references: [id], onDelete: Cascade)
+  owner           User          @relation("owner", fields: [ownerId], references: [id], onDelete: Cascade)
+}
+
+model Review {
+  id             String   @id
+  itemId         String
+  reviewerId     String
+  reviewerName   String
+  reviewerAvatar String
+  rating         Int
+  comment        String
+  date           String
+  type           String // 'item' or 'user'
+
+  // Relations
+  item           Item     @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  reviewer       User     @relation("reviewer", fields: [reviewerId], references: [id], onDelete: Cascade)
+}
+
+model CommunityRequest {
+  id             String   @id
+  title          String
+  category       String
+  requiredDates  String
+  description    String
+  location       String
+  distance       Int
+  postedBy       String
+  posterId       String
+  posterAvatar   String
+  createdAt      String
+
+  // Relations
+  poster         User             @relation(fields: [posterId], references: [id], onDelete: Cascade)
+  offers         CommunityOffer[]
+}
+
+model CommunityOffer {
+  id                 String   @id
+  communityRequestId String
+  userId             String
+  userName           String
+  userAvatar         String
+  status             String
+
+  // Relations
+  request            CommunityRequest @relation(fields: [communityRequestId], references: [id], onDelete: Cascade)
+  user               User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Notification {
+  id        String   @id
+  userId    String
+  text      String
+  type      String
+  createdAt String
+  isRead    Boolean
+  relatedId String?
+
+  // Relations
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model WishlistItem {
+  id     String @id
+  userId String
+  itemId String
+
+  // Relations
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item   Item   @relation(fields: [itemId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, itemId])
+}
