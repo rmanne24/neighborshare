@@ -111,9 +111,9 @@ export interface Notification {
 export const mockUsers: User[] = [
   {
     id: 'user_0', // Demo User
-    name: 'Sairishita Manne',
+    name: 'Saira Manne',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
-    email: 'sairishita.manne@example.com',
+    email: 'saira.manne@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.9,
     joinedDate: 'Jan 2025',
@@ -453,7 +453,7 @@ export const mockUsers: User[] = [
 
 // 40 Mock Items
 export const mockItems: Item[] = [
-  // User 0 (Sairishita) owns items 0, 1, 2, 3
+  // User 0 (Saira) owns items 0, 1, 2, 3
   {
     id: 'item_0',
     name: 'Epson Home Cinema Projector',
@@ -575,7 +575,7 @@ export const mockItems: Item[] = [
     sharingType: 'Paid',
     dailyRate: 150,
     securityDeposit: 1500,
-    status: 'Reserved', // Reserved for User 0 (Sairishita)
+    status: 'Reserved', // Reserved for User 0 (Saira)
     images: ['https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&auto=format&fit=crop&q=80'],
     availableFrom: '2026-08-01',
     availableTo: '2026-12-31',
@@ -665,7 +665,7 @@ export const mockItems: Item[] = [
     sharingType: 'Paid',
     dailyRate: 300,
     securityDeposit: 8000,
-    status: 'Borrowed', // Currently borrowed by User 0 (Sairishita)
+    status: 'Borrowed', // Currently borrowed by User 0 (Saira)
     images: ['https://images.unsplash.com/photo-1578643463396-0997cb5328c1?w=600&auto=format&fit=crop&q=80'],
     availableFrom: '2026-08-01',
     availableTo: '2026-12-31',
@@ -1187,7 +1187,7 @@ export const mockReviews: Review[] = [
     reviewerName: 'Rahul Sharma',
     reviewerAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
     rating: 5,
-    comment: 'The projector is fantastic! Set it up in the backyard for a birthday screening. Highly recommend Sairishita as an owner, she was super helpful.',
+    comment: 'The projector is fantastic! Set it up in the backyard for a birthday screening. Highly recommend Saira as an owner, she was super helpful.',
     date: '2026-07-28',
     type: 'item'
   },
@@ -1206,7 +1206,7 @@ export const mockReviews: Review[] = [
     id: 'rev_3',
     itemId: 'item_4',
     reviewerId: 'user_0',
-    reviewerName: 'Sairishita Manne',
+    reviewerName: 'Saira Manne',
     reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
     rating: 5,
     comment: 'Rahul’s drill was exactly what I needed to assemble a bookshelf. Fully charged batteries and a solid set of bits. Thanks!',
@@ -1217,7 +1217,7 @@ export const mockReviews: Review[] = [
     id: 'rev_4',
     itemId: 'item_11',
     reviewerId: 'user_0',
-    reviewerName: 'Sairishita Manne',
+    reviewerName: 'Saira Manne',
     reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
     rating: 5,
     comment: 'Absolutely love this stand mixer. Priya was very clean and nice when handing it over. Made the fluffiest bread dough.',
@@ -1231,7 +1231,7 @@ export const mockReviews: Review[] = [
     reviewerName: 'Karthik Rao',
     reviewerAvatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80',
     rating: 5,
-    comment: 'Cleaned my muddy mountain bike in 10 minutes. Extremely powerful pressure washer. Sairishita gave clear instructions.',
+    comment: 'Cleaned my muddy mountain bike in 10 minutes. Extremely powerful pressure washer. Saira gave clear instructions.',
     date: '2026-07-10',
     type: 'item'
   },
@@ -1293,9 +1293,9 @@ export const mockReviews: Review[] = [
   // User reviews
   {
     id: 'rev_11',
-    itemId: 'item_0', // Sairishita reviewed Rahul as borrower
+    itemId: 'item_0', // Saira reviewed Rahul as borrower
     reviewerId: 'user_0',
-    reviewerName: 'Sairishita Manne',
+    reviewerName: 'Saira Manne',
     reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
     rating: 5,
     comment: 'Rahul returned the projector exactly on time and in perfect condition. Great borrower, highly recommended!',
@@ -1304,18 +1304,18 @@ export const mockReviews: Review[] = [
   },
   {
     id: 'rev_12',
-    itemId: 'item_4', // Rahul reviewed Sairishita as borrower
+    itemId: 'item_4', // Rahul reviewed Saira as borrower
     reviewerId: 'user_1',
     reviewerName: 'Rahul Sharma',
     reviewerAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
     rating: 5,
-    comment: 'Sairishita was extremely neat and returned the drill bits fully organized. Would lend to her again!',
+    comment: 'Saira was extremely neat and returned the drill bits fully organized. Would lend to her again!',
     date: '2026-07-21',
     type: 'user'
   },
   {
     id: 'rev_13',
-    itemId: 'item_11', // Priya reviewed Sairishita as borrower
+    itemId: 'item_11', // Priya reviewed Saira as borrower
     reviewerId: 'user_4',
     reviewerName: 'Priya Patel',
     reviewerAvatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80',
@@ -1326,9 +1326,9 @@ export const mockReviews: Review[] = [
   },
   {
     id: 'rev_14',
-    itemId: 'item_2', // Sairishita reviewed Karthik as borrower
+    itemId: 'item_2', // Saira reviewed Karthik as borrower
     reviewerId: 'user_0',
-    reviewerName: 'Sairishita Manne',
+    reviewerName: 'Saira Manne',
     reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
     rating: 4,
     comment: 'Karthik returned it clean, though slightly delayed due to traffic. Easy communication.',
@@ -1337,9 +1337,9 @@ export const mockReviews: Review[] = [
   },
   {
     id: 'rev_15',
-    itemId: 'item_2', // Sairishita reviewed Sandeep as borrower
+    itemId: 'item_2', // Saira reviewed Sandeep as borrower
     reviewerId: 'user_0',
-    reviewerName: 'Sairishita Manne',
+    reviewerName: 'Saira Manne',
     reviewerAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
     rating: 5,
     comment: 'Very polite, quick hand-over. Returned it carefully. 10/10.',
@@ -1348,12 +1348,12 @@ export const mockReviews: Review[] = [
   },
   {
     id: 'rev_16',
-    itemId: 'item_6', // Ananya reviewed Sairishita as borrower
+    itemId: 'item_6', // Ananya reviewed Saira as borrower
     reviewerId: 'user_2',
     reviewerName: 'Ananya Iyer',
     reviewerAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
     rating: 5,
-    comment: 'Sairishita is always a pleasure to deal with. Tent was cleaned and dry. Thank you!',
+    comment: 'Saira is always a pleasure to deal with. Tent was cleaned and dry. Thank you!',
     date: '2026-06-15',
     type: 'user'
   },
@@ -1405,15 +1405,15 @@ export const mockReviews: Review[] = [
 
 // 20 Mock Borrow Requests
 export const mockBorrowRequests: BorrowRequest[] = [
-  // 3 Pending requests received by Demo User (Sairishita) on her items
+  // 3 Pending requests received by Demo User (Saira) on her items
   {
     id: 'req_0',
-    itemId: 'item_1', // Sewing Machine (Sairishita's)
+    itemId: 'item_1', // Sewing Machine (Saira's)
     borrowerId: 'user_10', // Divya Joshi
     startDate: '2026-08-12',
     endDate: '2026-08-15',
     purpose: 'Need to hem some window curtains for my new living room setup.',
-    message: 'Hello Sairishita, I live in block C. I saw you are sharing this machine for free. Can I borrow it for 3 days next week? I have my own thread rolls.',
+    message: 'Hello Saira, I live in block C. I saw you are sharing this machine for free. Can I borrow it for 3 days next week? I have my own thread rolls.',
     status: 'Pending',
     createdAt: '2026-08-08',
     totalCost: 0,
@@ -1421,12 +1421,12 @@ export const mockBorrowRequests: BorrowRequest[] = [
   },
   {
     id: 'req_1',
-    itemId: 'item_2', // Pressure Washer (Sairishita's)
+    itemId: 'item_2', // Pressure Washer (Saira's)
     borrowerId: 'user_1', // Rahul Sharma
     startDate: '2026-08-15',
     endDate: '2026-08-16',
     purpose: 'Deep cleaning the car and the driveway after the monsoon rain.',
-    message: 'Hi Sairishita, hope you are doing well! Need the pressure washer for a Sunday cleaning project. Will handle with care.',
+    message: 'Hi Saira, hope you are doing well! Need the pressure washer for a Sunday cleaning project. Will handle with care.',
     status: 'Pending',
     createdAt: '2026-08-09',
     totalCost: 200,
@@ -1434,7 +1434,7 @@ export const mockBorrowRequests: BorrowRequest[] = [
   },
   {
     id: 'req_2',
-    itemId: 'item_3', // Air Fryer (Sairishita's)
+    itemId: 'item_3', // Air Fryer (Saira's)
     borrowerId: 'user_2', // Ananya Iyer
     startDate: '2026-08-11',
     endDate: '2026-08-13',
@@ -1446,7 +1446,7 @@ export const mockBorrowRequests: BorrowRequest[] = [
     securityDeposit: 2000
   },
 
-  // Sent requests by Demo User (Sairishita)
+  // Sent requests by Demo User (Saira)
   {
     id: 'req_3',
     itemId: 'item_6', // Camping Tent (Ananya's)
@@ -1482,7 +1482,7 @@ export const mockBorrowRequests: BorrowRequest[] = [
     startDate: '2026-08-05',
     endDate: '2026-08-10',
     purpose: 'Home movie marathon with family.',
-    message: 'Hey Sairishita, requesting the projector for a few days.',
+    message: 'Hey Saira, requesting the projector for a few days.',
     status: 'Approved', // Leads to current Active/Overdue transaction
     createdAt: '2026-08-03',
     totalCost: 1750,
@@ -1504,7 +1504,7 @@ export const mockBorrowRequests: BorrowRequest[] = [
   {
     id: 'req_7',
     itemId: 'item_8',
-    borrowerId: 'user_0', // Sairishita
+    borrowerId: 'user_0', // Saira
     startDate: '2026-08-25',
     endDate: '2026-08-27',
     purpose: 'Board game night.',
@@ -1674,12 +1674,12 @@ export const mockBorrowRequests: BorrowRequest[] = [
 
 // 10 Mock Transactions
 export const mockTransactions: Transaction[] = [
-  // 2 active borrowing transactions for Sairishita
+  // 2 active borrowing transactions for Saira
   {
     id: 'tx_0',
     requestId: 'req_4',
     itemId: 'item_11', // Stand Mixer (Priya's)
-    borrowerId: 'user_0', // Demo User (Sairishita)
+    borrowerId: 'user_0', // Demo User (Saira)
     ownerId: 'user_4', // Priya
     startDate: '2026-08-02',
     endDate: '2026-08-12', // Overdue relative to current date (Aug 9) - wait, Aug 12 is in the future.
@@ -1706,13 +1706,13 @@ export const mockTransactions: Transaction[] = [
     securityDeposit: 1500
   },
 
-  // 2 active lending transactions for Sairishita
+  // 2 active lending transactions for Saira
   {
     id: 'tx_2',
     requestId: 'req_5',
-    itemId: 'item_0', // Projector (Sairishita's)
+    itemId: 'item_0', // Projector (Saira's)
     borrowerId: 'user_1', // Rahul
-    ownerId: 'user_0', // Sairishita
+    ownerId: 'user_0', // Saira
     startDate: '2026-08-05',
     endDate: '2026-08-07', // End date is Aug 7, which makes it OVERDUE by 2 days (Current date is Aug 9)!
     status: 'Overdue',
@@ -1726,7 +1726,7 @@ export const mockTransactions: Transaction[] = [
     id: 'tx_3',
     requestId: 'req_12',
     itemId: 'item_26', // Steam Cleaner
-    borrowerId: 'user_0', // Sairishita
+    borrowerId: 'user_0', // Saira
     ownerId: 'user_13', // Sandeep
     startDate: '2026-07-22',
     endDate: '2026-07-24',
@@ -2040,7 +2040,7 @@ export const mockCommunityRequests: CommunityRequest[] = [
   }
 ];
 
-// 10 Mock Notifications for Demo User Sairishita (user_0)
+// 10 Mock Notifications for Demo User Saira (user_0)
 export const mockNotifications: Notification[] = [
   {
     id: 'not_0',
@@ -2133,7 +2133,7 @@ export const mockNotifications: Notification[] = [
   }
 ];
 
-// Wishlist Items IDs for Demo User Sairishita
+// Wishlist Items IDs for Demo User Saira
 export const mockWishlist: string[] = ['item_4', 'item_5', 'item_8', 'item_10', 'item_26'];
 
 // 12 Item Categories (as requested)

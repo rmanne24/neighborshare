@@ -5,9 +5,9 @@ const prisma = new PrismaClient();
 const mockUsers = [
   {
     id: 'user_0',
-    name: 'Sairishita Manne',
+    name: 'Saira Manne',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80',
-    email: 'sairishita.manne@example.com',
+    email: 'saira.manne@example.com',
     neighborhood: 'Indiranagar, Bangalore',
     rating: 4.9,
     joinedDate: 'Jan 2025',
@@ -359,12 +359,12 @@ const mockItems = [
 ];
 
 const mockBorrowRequests = [
-  { id: 'req_0', itemId: 'item_1', borrowerId: 'user_10', startDate: '2026-08-12', endDate: '2026-08-15', purpose: 'Need to hem some window curtains for my new living room setup.', message: 'Hello Sairishita, I live in block C. I saw you are sharing this machine for free. Can I borrow it for 3 days next week? I have my own thread rolls.', status: 'Pending', createdAt: '2026-08-08', totalCost: 0, securityDeposit: 1500 },
-  { id: 'req_1', itemId: 'item_2', borrowerId: 'user_1', startDate: '2026-08-15', endDate: '2026-08-16', purpose: 'Deep cleaning the car and the driveway after the monsoon rain.', message: 'Hi Sairishita, hope you are doing well! Need the pressure washer for a Sunday cleaning project. Will handle with care.', status: 'Pending', createdAt: '2026-08-09', totalCost: 200, securityDeposit: 2000 },
+  { id: 'req_0', itemId: 'item_1', borrowerId: 'user_10', startDate: '2026-08-12', endDate: '2026-08-15', purpose: 'Need to hem some window curtains for my new living room setup.', message: 'Hello Saira, I live in block C. I saw you are sharing this machine for free. Can I borrow it for 3 days next week? I have my own thread rolls.', status: 'Pending', createdAt: '2026-08-08', totalCost: 0, securityDeposit: 1500 },
+  { id: 'req_1', itemId: 'item_2', borrowerId: 'user_1', startDate: '2026-08-15', endDate: '2026-08-16', purpose: 'Deep cleaning the car and the driveway after the monsoon rain.', message: 'Hi Saira, hope you are doing well! Need the pressure washer for a Sunday cleaning project. Will handle with care.', status: 'Pending', createdAt: '2026-08-09', totalCost: 200, securityDeposit: 2000 },
   { id: 'req_2', itemId: 'item_3', borrowerId: 'user_2', startDate: '2026-08-11', endDate: '2026-08-13', purpose: 'Testing recipes before hosting a dinner party next Friday.', message: 'Hey, I wanted to try out baking some keto snacks. Can I pick it up on Tuesday evening?', status: 'Pending', createdAt: '2026-08-08', totalCost: 0, securityDeposit: 2000 },
   { id: 'req_3', itemId: 'item_6', borrowerId: 'user_0', startDate: '2026-08-20', endDate: '2026-08-23', purpose: 'Going for a weekend trek to Chikmagalur with friends.', message: 'Hi Ananya! I need a reliable tent for our trip. I saw yours is available. Let me know if those dates work!', status: 'Approved', createdAt: '2026-08-07', totalCost: 450, securityDeposit: 1500 },
   { id: 'req_4', itemId: 'item_11', borrowerId: 'user_0', startDate: '2026-08-02', endDate: '2026-08-06', purpose: 'Baking bread batches and cupcakes for neighborhood bake sale.', message: 'Hi Priya, I have a big baking project this week. Your stand mixer would save me hours of hand kneading!', status: 'Approved', createdAt: '2026-07-31', totalCost: 1200, securityDeposit: 8000 },
-  { id: 'req_5', itemId: 'item_0', borrowerId: 'user_1', startDate: '2026-08-05', endDate: '2026-08-10', purpose: 'Home movie marathon with family.', message: 'Hey Sairishita, requesting the projector for a few days.', status: 'Approved', createdAt: '2026-08-03', totalCost: 1750, securityDeposit: 3000 }
+  { id: 'req_5', itemId: 'item_0', borrowerId: 'user_1', startDate: '2026-08-05', endDate: '2026-08-10', purpose: 'Home movie marathon with family.', message: 'Hey Saira, requesting the projector for a few days.', status: 'Approved', createdAt: '2026-08-03', totalCost: 1750, securityDeposit: 3000 }
 ];
 
 const mockTransactions = [
@@ -374,7 +374,7 @@ const mockTransactions = [
 ];
 
 const mockReviews = [
-  { id: 'rev_1', itemId: 'item_0', reviewerId: 'user_1', reviewerName: 'Rahul Sharma', reviewerAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80', rating: 5, comment: 'The projector is fantastic! Set it up in the backyard for a birthday screening. Highly recommend Sairishita as an owner.', date: '2026-07-28', type: 'item' },
+  { id: 'rev_1', itemId: 'item_0', reviewerId: 'user_1', reviewerName: 'Rahul Sharma', reviewerAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80', rating: 5, comment: 'The projector is fantastic! Set it up in the backyard for a birthday screening. Highly recommend Saira as an owner.', date: '2026-07-28', type: 'item' },
   { id: 'rev_2', itemId: 'item_0', reviewerId: 'user_2', reviewerName: 'Ananya Iyer', reviewerAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80', rating: 4, comment: 'Clear projection, though it works best in complete dark.', date: '2026-07-15', type: 'item' }
 ];
 
