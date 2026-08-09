@@ -19,6 +19,13 @@ zerops:
     build:
       base: nodejs@20
       buildCommands:
+        - pwd
+        - node --version
+        - npm --version
+        - ls -la
+        - ls -la backend
+        - test -f backend/package-lock.json && echo "LOCKFILE_EXISTS" || echo "LOCKFILE_MISSING"
+        - head -5 backend/package-lock.json
         - cd backend
         - npm ci
         - npx prisma generate
