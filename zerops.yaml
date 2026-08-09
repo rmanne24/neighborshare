@@ -35,5 +35,8 @@ zerops:
         - port: 5000
           httpSupport: true
       initCommands:
-        - cd backend && npx prisma db push && npx prisma db seed
+        - |
+          cd backend
+          npx prisma db push
+          npx ts-node prisma/seed.ts
       start: cd backend && npm run start
