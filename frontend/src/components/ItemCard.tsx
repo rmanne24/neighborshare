@@ -11,11 +11,11 @@ interface ItemCardProps {
 }
 
 export const ItemCard: React.FC<ItemCardProps> = ({ item }) => {
-  const { wishlist, toggleWishlist } = useApp();
+  const { wishlist, toggleWishlist, users } = useApp();
   const isWishlisted = wishlist.includes(item.id);
   
-  // Find owner details
-  const owner = mockUsers.find(u => u.id === item.ownerId);
+  // Find owner details (try backend users first, fallback to mockUsers)
+  const owner = users.find(u => u.id === item.ownerId) || mockUsers.find(u => u.id === item.ownerId);
 
   const handleWishlistClick = (e: React.MouseEvent) => {
     e.preventDefault();

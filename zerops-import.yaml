@@ -1,0 +1,15 @@
+# Zerops Infrastructure-as-Code (IaC) Import Configuration
+# Paste or import this configuration in your Zerops Dashboard to automatically create the project and services.
+project:
+  name: neighborshare
+
+services:
+  # The static frontend service
+  - hostname: gui
+    type: static
+    enableSubdomainAccess: true
+
+  # The Node.js backend API service
+  - hostname: api
+    type: nodejs@20
+    enableSubdomainAccess: true
