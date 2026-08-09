@@ -7,7 +7,7 @@ export const Login: React.FC = () => {
   const { loginUser, currentUser } = useApp();
   const navigate = useNavigate();
 
-  const [email, setEmail] = useState('saira.manne@example.com'); // Autofill Saira email for easy testing
+  const [email, setEmail] = useState('xyz.manne@example.com'); // Autofill XYZ email for easy testing
   const [password, setPassword] = useState('password123');
   const [errorMsg, setErrorMsg] = useState('');
 
@@ -34,8 +34,8 @@ export const Login: React.FC = () => {
   };
 
   const handleGoogleLogin = async () => {
-    // Mock login as Saira
-    const success = await loginUser('saira.manne@example.com');
+    // Mock login as XYZ
+    const success = await loginUser('xyz.manne@example.com');
     if (success) {
       navigate('/dashboard');
     }
@@ -140,7 +140,7 @@ export const Login: React.FC = () => {
             <div className="bg-slate-50 border border-slate-100 rounded-xl p-3 text-[11px] text-slate-500 font-medium leading-relaxed">
               <strong>Quick testing tips:</strong><br />
               Log in with our predefined mock accounts:<br />
-              • Owner/Borrower: <code className="text-primary-700">saira.manne@example.com</code><br />
+              • Owner/Borrower: <code className="text-primary-700">xyz.manne@example.com</code><br />
               • Other Resident: <code className="text-primary-700">rahul.sharma@example.com</code>
             </div>
 
