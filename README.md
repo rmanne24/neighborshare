@@ -103,4 +103,4 @@ We structured the application as a monorepo consisting of:
    ```
    *(Frontend will start on port `5173`)*
 
-4. Open `http://localhost:5173/` in your browser. Log in using `xyz.manne@example.com` (password: `password123`) to explore the app!
+4. Open `http://localhost:5173/` in your browser. Log in using `xyz.@example.com` (password: `password123`) to explore the app!
